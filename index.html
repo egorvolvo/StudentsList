@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script  defer src="script.js"></script>
+</head>
+<body>
+    <form class ="form-student">
+  <ul>
+    <li>
+      <label for="name" class="lab" >Имя:</label>
+      <input type="text"  id="name" class ="field" name="user_name" value="">
+    </li>
+    <li>
+      <label for="mail"  class="lab" >Фамилия:</label>
+      <input type="text"   id="surname" class ="field" name="user_surname">
+    </li>
+    <li>
+      <label for="secondName"  class="lab" >Отчество:</label>
+      <input type="text"  id="secondName" class ="field" name="user_secondName">
+    </li>
+    <li>
+      <label for="birthday"  class="lab birthday" >Дата рождения:</label>
+      <input type="date"   id="birthday" class ="field" name="user_birthday">
+    </li>
+    <li>
+      <label for="yearOfStudy"  class="lab yearOfStudy" >Год начала обучения:</label>
+      <input type="text"   id="yearOfStudy" class ="field" name="user_yearOfStudy">
+    </li>
+    <li>
+      <label for="faculty"  class="lab" >Факультет:</label>
+      <input type="text"  id="faculty" class ="field" name="user_faculty">
+    </li>
+
+    <li class="button">
+        <button  class = "formButton" type="submit">Send your message</button>
+      </li>
+  </ul>
+</form>
+<table class="table">
+	<thead>
+		<tr>
+			<th class ="student">ФИО студента</th>
+			<th class ="facultyColumn">Факультет</th>
+			<th class ="birthdaySort">Дата Рождения</th>
+			<th class ="StudySort">Годы обучения</th>
+
+		</tr>
+	</thead>
+	<!-- <tbody> -->
+		<!-- <tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+		</tr>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+		</tr> -->
+	<!-- </tbody> -->
+</table>
+  <button class="proba">Нажми</button>
+  <input type="text"  id="filterFaculty"  name="mm_user">
+  <button class="filterFacultyBtn">факультет</button>
+  <input type="text"  id="filterFIO"  name="mm_user">
+  <button class="filterFioBtn">фио</button>
+  <input type="text"  id="filterBirthday"  name="mm_user">
+  <button class="filterBirthdayBtn">год рождения</button>
+  <input type="text"  id="filterStudy"  name="mm_user">
+  <button class="filterStudyBtn">годы обучения</button>
+
+</body>
+</html>
